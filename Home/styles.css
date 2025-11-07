@@ -442,7 +442,6 @@ html {
     border: none;
     padding: 10px 20px;
     border-radius: 6px;
-    font-weight: bold;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -458,4 +457,5 @@ html {
 .h4-empleo
 {
     color: #000 !important;
+
 }
