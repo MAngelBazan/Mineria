@@ -126,11 +126,6 @@ una al lado de la otra  (creo que lo cambié, pero no me acuerdo)*/
 
 }
 
-.presentation-chard img
-{
-    border-radious: 10px;
-}
-
 .presentation {
     color: #EAE6E5;
     font-size: x-large;
@@ -463,5 +458,12 @@ html {
 {
     color: #000 !important;
 
+}
+
+/*############*/
+/* aplico esto aquí y  no arriba porque no lo detectaba */
+/* bordes redondeados para las imagenes que aparece en mi sección equipo */
+.presentation-chard img {
+  border-radius: 10px;
 }
 
