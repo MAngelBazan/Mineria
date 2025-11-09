@@ -550,6 +550,13 @@ html {
     height: 100%;
 }
 
+.card-noticia img,
+.card-noticia2 img
+{
+    border-radious: 12px;
+}
+
+
 .card-noticia2 {
     background-color: #ABC1CC;
 }
@@ -615,7 +622,7 @@ html {
 
 }
 
-
+/*Esto no me funciona, intenté arreglarlo pero está raro (T - T)*/
 @media (max-width: 576px)
 {
     navbar-collapse
@@ -631,6 +638,7 @@ html {
 .presentation-chard img {
   border-radius: 10px;
 }
+
 
 
 
