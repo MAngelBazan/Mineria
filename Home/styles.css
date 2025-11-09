@@ -461,8 +461,8 @@ html {
     position: absolute;
     top: 50%;
     left: 5%;
-    transform: translateY(-40%);
-    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 4rem 2rem;
     text-align: center;
@@ -615,12 +615,23 @@ html {
 
 }
 
+
+@media (max-width: 576px)
+{
+    .navbar-nav
+    {
+        justify-content:center;
+    }
+}
+
+
 /*############*/
 /* aplico esto aquí y  no arriba porque no lo detectaba */
 /* bordes redondeados para las imagenes que aparece en mi sección equipo */
 .presentation-chard img {
   border-radius: 10px;
 }
+
 
 
 
