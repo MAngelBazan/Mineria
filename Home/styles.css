@@ -47,14 +47,14 @@ nav {
 {
     background-color: #363332;
 } */
-
+/* 
 @media screen and (min-width: 800px)
     {
     .navbar-collapse {
         padding-left: 0em;
     }
 
-}
+} */
 
 
 
@@ -631,6 +631,7 @@ html {
 .presentation-chard img {
   border-radius: 10px;
 }
+
 
 
 
