@@ -508,8 +508,8 @@ html {
 }
 
 
-.tarjeta-amplia .card-text {
-    font-size: 1.8rem;
+.tarjeta-amplia .card-text { /*estaba justo buscando esto para hacerlo  más chico, pensé que no estaba jsjs*/
+    font-size: 1.6rem; /*El profesor dijo que lo achiquemos, pero no dijeron cuánto, así que creo que de 1.8 a 1.6 está bien*/
     margin-bottom: 10px;
 }
 
@@ -621,6 +621,7 @@ html {
 .presentation-chard img {
   border-radius: 10px;
 }
+
 
 
 
