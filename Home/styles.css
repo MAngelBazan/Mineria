@@ -283,6 +283,11 @@ una al lado de la otra  (creo que lo cambié, pero no me acuerdo)*/
     background-color:#363332;
 }
 
+.yellow-foler-big /*Esto hace más grande el alto del folio en el home*/
+{
+    height: 700px;
+}
+
 .contacto-modal
 {
     background-color: #EAE6E5;
@@ -632,6 +637,7 @@ html {
 .presentation-chard img {
   border-radius: 10px;
 }
+
 
 
 
