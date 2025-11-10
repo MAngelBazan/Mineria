@@ -28,8 +28,6 @@ nav {
 {
     transform: scale(1.3);
     color: #F4B92A;
-    margin-right: 15%;
-    margin-left:15%;
 }
 .nav-link.active
 {
@@ -43,6 +41,11 @@ nav {
     margin-left:5%;
 }
 
+.navbar-collapse .nav-link.
+{
+    margin-right: 15%;
+    margin-left:15%;
+}
 
 .navbar-brand {
     padding-left: 5%;
@@ -667,6 +670,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
