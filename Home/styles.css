@@ -44,6 +44,7 @@ nav {
     text-align: left;
     float: left;
     padding-right: 5%;
+    margin-left:5%;
 }
 
 .prueba {
@@ -660,6 +661,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
