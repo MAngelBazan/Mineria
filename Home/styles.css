@@ -35,11 +35,6 @@ nav {
     border-radius: 50px;
 
 }
-.nav-link
-{
-    margin-right: 5%;
-    margin-left:5%;
-}
 
 .navbar-collapse .nav-link. /* Esto es para evitar que los lins de la barra se pongan raros, porque sino se aplican también para pc*/
 {
@@ -676,6 +671,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
