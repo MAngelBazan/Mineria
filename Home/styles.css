@@ -41,7 +41,7 @@ nav {
     margin-left:5%;
 }
 
-.navbar-collapse .nav-link.
+.navbar-collapse .nav-link. /* Esto es para evitar que los lins de la barra se pongan raros, porque sino se aplican también para pc*/
 {
     margin-right: 15%;
     margin-left:15%;
@@ -670,6 +670,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
