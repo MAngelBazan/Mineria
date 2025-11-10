@@ -648,6 +648,67 @@ html {
     }
 }
 
+@media (max-width: 768px) {
+    .yellow-folder {
+        width: 100%;
+        min-height: auto;
+        padding: 18px;
+    }
+
+    .text-folder p {
+        font-size: 1rem;
+    }
+
+    .icono-mail {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-vermas {
+        font-size: 0.9rem;
+        padding: 7px 10px;
+    }
+
+    .modal-dialog {
+        margin: 10px;
+    }
+
+    .modal-title {
+        font-size: 1.05rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .yellow-folder {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .text-folder p {
+        font-size: 0.95rem;
+    }
+
+    .d-flex.gap-3 {
+        gap: 10px !important;
+    }
+
+    .icono-mail {
+        width: 35px;
+        height: 35px;
+    }
+
+    .btn-vermas {
+        font-size: 0.85rem;
+        padding: 6px 9px;
+    }
+
+    .modal-content {
+        padding: 10px;
+    }
+}
+
+
 
 
 
