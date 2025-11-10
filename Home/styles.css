@@ -29,9 +29,11 @@ nav {
     transform: scale(1.3);
     color: #F4B92A;
 }
- .nav-link.active {
-      background-color: rgba(244, 185, 42, 0.1);
-    }
+.nav-link.active
+{
+    background-color: rgba(244, 185, 42, 0.1);
+    border-radius: 50px;
+}
 
 
 .navbar-brand {
@@ -658,6 +660,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
