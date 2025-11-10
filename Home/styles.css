@@ -42,13 +42,8 @@ nav {
 
 .navbar-collapse {
     text-align: center;
-    padding-right: 5%;
+    margin-right: 5%;
     margin-left:5%;
-    width:90%;
-}
-.navbar-collapse:hover {
-    padding-right: 5%;
-    margin-left:30%;
     width:90%;
 }
 
@@ -666,6 +661,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
