@@ -37,36 +37,8 @@
       line-height: 1.7;
     }
 
-    /* Header elegante */
-    header {
-      background-color: rgba(54, 51, 50, 0.98);
-      transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-      padding: 12px 0;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-      backdrop-filter: blur(10px);
-    }
-
-    .navbar-brand {
-      color: var(--white-color) !important;
-      font-weight: 700;
-      font-size: 1.6rem;
-      display: flex;
-      align-items: center;
-      transition: transform 0.3s ease;
-    }
-
     .navbar-brand:hover {
       transform: translateY(-2px);
-    }
-
-    .navbar-nav {
-      display: flex;
-      flex-direction: row !important;
-      gap: 8px;
     }
 
     .nav-link {
@@ -235,26 +207,6 @@
       margin-top: 2rem;
     }
 
-    /* Footer elegante */
-    .footer {
-      background: linear-gradient(135deg, rgba(0, 0, 0, 0.98) 0%, rgba(20, 20, 20, 0.98) 100%);
-      color: var(--secondary-color);
-      padding: 40px 20px;
-      text-align: center;
-      margin: 0;
-      position: relative;
-    }
-
-    .footer::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, var(--accent-color), var(--secondary-color));
-    }
-
     .iconos-sociales {
       display: flex;
       justify-content: center;
@@ -286,22 +238,6 @@
       box-shadow: 0 5px 15px rgba(244, 185, 42, 0.3);
     }
 
-    .footer p {
-      margin: 0 auto;
-      line-height: 1.8;
-      font-size: 1rem;
-      max-width: 600px;
-      text-align: center;
-      width: 100%;
-      color: rgba(255,255,255,0.8);
-      font-weight: 300;
-    }
-
-    .footer p:first-of-type {
-      font-weight: 500;
-      color: var(--secondary-color);
-      margin-bottom: 1rem;
-    }
 
     /* Animaciones */
     @keyframes fadeInUp {
@@ -382,11 +318,6 @@
         height: 45px;
       }
       
-      .footer {
-        padding: 30px 15px;
-      }
-    }
-
     /* Móviles pequeños */
     @media (max-width: 575px) {
       .texto-proyecto {
@@ -418,10 +349,6 @@
         height: 40px;
       }
       
-      .footer p {
-        font-size: 0.9rem;
-      }
-    }
 
     /* Mejoras de accesibilidad */
     @media (prefers-reduced-motion: reduce) {
@@ -440,6 +367,7 @@
     }
   </style>
   <!-- Ramiro, no sé porqué pusiste todo tu css así, pero yo no juzgo, yo solo vine a poner el footer y el navbar  -->
+  <!-- pd: eliminé todo lo que encontré que era del footer anterior porque se superponía con el que otro y me lo modificaba -->
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -460,9 +388,9 @@
                 <div class="collapse navbar-collapse bg-dark" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="Home/index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="proyectos.html">Proyectos</a></li>
                         <li class="nav-item"><a class="nav-link" href="equipo.html">Equipo</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="novedades.html">Novedades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="novedades.html">Novedades</a></li>
                         <li class="nav-item"><a class="nav-link" href="empleo.html">Empleo</a></li>
                         <li class="nav-item"><a class="nav-link" href="maquinaria.html">Maquinaria</a></li>
                     </ul>
@@ -556,8 +484,6 @@
 </body>
 
 </html>
-
-
 
 
 
