@@ -51,30 +51,6 @@ nav {
     width:100%;
 }
 
-.prueba {
-    border: solid #F4B92A;
-    padding: 10px;
-    margin-top: 10px;
-    display: inline-block;
-    border-color: #F4B92A;
-    border-radius: solid 2px;
-    border-radius: 10px;
-}
-
-/* .container-fluid
-{
-    background-color: #363332;
-} */
-/* 
-@media screen and (min-width: 800px)
-    {
-    .navbar-collapse {
-        padding-left: 0em;
-    }
-
-} */
-
-
 
 /* ################################# */
 /*fuentes*/
@@ -671,6 +647,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
