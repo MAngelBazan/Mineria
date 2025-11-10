@@ -365,9 +365,10 @@ footer {
 
 .footer-logo img,
 .footer-home img {
-    margin: 0 10em;
     max-width: 100%;
     height: auto;
+    margin: 7rem;
+    display: block;
 }
 
 .icon-redes img {
@@ -382,7 +383,7 @@ footer {
     font-size: 0.9rem;
     line-height: 1.6;
     text-align: center;
-    flex: 1 1 auto;
+    flex: 1;
 }
 
 .footer-home {
@@ -391,24 +392,29 @@ footer {
     justify-content: center;
 }
 
-@media (width: 992px)
-{
-   .footer-logo img,
-    .footer-home img {
-    margin: 0 0em;
-} 
-}
-
-/* Esto es para que se adapte a más pantallas y se apilen entre sí en vez de estar horizontales, muchachos */
-@media (max-width: 992px) {
+/* AJUSTE RESPONSIVE PARA QUE NO QUEDE TODO TAN SEPARADO EN CELU */
+@media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
-        text-align: center;
-        gap: 20px;
+        justify-content: center;   
+        min-height: 10em;          
+        gap: 10px;                
+        padding: 20px 0;           
+    }
+
+    .footer-logo img,
+    .footer-home img {
+        margin: 0;                 
+        width: 90px;               
+        height: auto;
+    }
+
+    .icon-redes img {
+        width: 30px;             
     }
 
     .footer-text {
-        margin-top: 10px;
+        font-size: 0.8rem;
     }
 }
 
@@ -670,6 +676,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
