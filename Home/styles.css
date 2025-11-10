@@ -637,6 +637,17 @@ html {
 .presentation-chard img {
   border-radius: 10px;
 }
+.img-carousel {
+    height: 350px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .img-carousel {
+        height: 500px;
+    }
+}
+
 
 
 
