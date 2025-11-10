@@ -34,6 +34,11 @@ nav {
     background-color: rgba(244, 185, 42, 0.1);
     border-radius: 50px;
 }
+.nav-link
+{
+    margin-right: 5%;
+    margin-left:5%;
+}
 
 
 .navbar-brand {
@@ -42,9 +47,7 @@ nav {
 
 .navbar-collapse {
     text-align: center;
-    margin-right: 5%;
-    margin-left:5%;
-    width:90%;
+    width:100%;
 }
 
 .prueba {
@@ -661,6 +664,7 @@ html {
         height: 500px;
     }
 }
+
 
 
 
