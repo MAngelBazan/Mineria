@@ -21,22 +21,26 @@ nav {
 .active {
     font-family: Verdana;
     color: #EAE6E5;
-    border-radius: 50px;
 }
 
 
 .nav-link:hover
 {
-    transform: scale(1.1);
-    background-color: rgba(244, 185, 42, 0.1);
-    border-radius: 50px;
-    
+    transform: scale(1.3);
+    color: #F4B92A;
 }
 .nav-link.active
 {
-    color: #F4B92A !important;
+    background-color: rgba(244, 185, 42, 0.1);
+    border-radius: 50px;
+
 }
 
+.navbar-collapse .nav-link. /* Esto es para evitar que los lins de la barra se pongan raros, porque sino se aplican también para pc*/
+{
+    margin-right: 15%;
+    margin-left:15%;
+}
 
 .navbar-brand {
     padding-left: 5%;
@@ -214,17 +218,6 @@ una al lado de la otra  (creo que lo cambié, pero no me acuerdo)*/
     margin-bottom: 5em;
 }
 
-@media (max-width: 1024px) {
-    .card-item
-    {
-        margin: 0 10%;
-        margin-bottom: 5em;
-    }
-}
-
-
-
-
 @media (max-width: 576px) {
     .card-bottom
     {
@@ -255,7 +248,6 @@ una al lado de la otra  (creo que lo cambié, pero no me acuerdo)*/
 {
     max-width: 30%;
 }
-
 
 .yellow-mark
 {
@@ -335,17 +327,29 @@ footer {
     background-image: url(../images/footer_background.png);
     background-size: cover;
     background-position: center;
-    gap: 20px;
+
+    /* ALTURA */
+    min-height: 15em;
+
+    /* CENTRAR DE VERDAD */
+    display: flex;
+    justify-content: center;  /* antes: space-between */
+    align-items: center;
+    gap: 40px; /* separación equilibrada entre elementos */
 }
 
+/* ------------------------------------------------------------------ */
+/* LOGOS E IMÁGENES */
 .footer-logo img,
 .footer-home img {
-    max-width: 100%;
+    max-width: 90px; 
     height: auto;
-    margin: 7rem;
-    /* display: block; */
+    margin: 1rem;
 }
 
+
+/* ------------------------------------------------------------------ */
+/* ICONOS REDES */
 .icon-redes img {
     transition: transform 0.2s ease;
 }
@@ -354,43 +358,51 @@ footer {
     transform: scale(1.1);
 }
 
+/* ------------------------------------------------------------------ */
+/* TEXTO CENTRAL */
 .footer-text {
     font-size: 0.9rem;
     line-height: 1.6;
     text-align: center;
     flex: 1;
+    max-width: 350px; /* evita que el texto se expanda demasiado */
 }
 
+/* ------------------------------------------------------------------ */
+/* CONTENEDOR HOME */
 .footer-home {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-@media (max-width: 1067px) {
+/* ------------------------------------------------------------------ */
+/* RESPONSIVE CELU */
+@media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
-        justify-content: center;   
-        min-height: 10em;          
-        gap: 10px;                
-        padding: 20px 0;           
+        justify-content: center;
+        min-height: 10em;
+        gap: 15px;
+        padding: 20px 0;
     }
 
     .footer-logo img,
     .footer-home img {
-        margin: 0;                 
-        width: 90px;               
-        height: auto;
+        width: 40px; 
     }
 
     .icon-redes img {
-        width: 30px;             
+        width: 20px;
     }
 
     .footer-text {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
+        max-width: 90%;
     }
 }
+
+
 
 /* #################################################################### */
 
@@ -459,7 +471,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80%;
+    height: 150%;
     object-fit: cover;
     z-index: -1;
 }
@@ -500,7 +512,7 @@ html {
 .texto {
     flex: 1;
     min-width: 250px;
-    padding-left: 60px;
+    padding-left: 20px;
 }
 
 .imagen {
@@ -601,6 +613,7 @@ html {
 /* -------------------------------------------------------------------------------------- */
 
 .btn-vermas {
+    background-color: #9BD3ED;
     color: #000;
     border: none;
     padding: 10px 20px;
@@ -612,23 +625,9 @@ html {
     align-self: center;
 
 }
-.b-lightblue
-{
-    background-color: #9BD3ED;
-}
-.b-yellow
-{
-    background-color: #F4B92A;
-}
 
-
-.b-lightblue:hover
-{
+.btn-vermas:hover {
     background-color: #85c6e0;
-}
-.b-yellow:hover
-{
-    background-color: rgba(244, 185, 42, 0.5);
 }
 
 .h4-empleo
@@ -640,7 +639,7 @@ html {
 /*Esto no me funciona, intenté arreglarlo pero está raro (T - T)*/
 @media (max-width: 576px)
 {
-    .navbar-collapse
+    navbar-collapse
     {
         justify-content:center;
     }
@@ -653,13 +652,6 @@ html {
 .presentation-chard img {
   border-radius: 10px;
 }
-
-.img-marca
-{
-    transform: scale(1);
-}
-
-
 .img-carousel {
     height: 350px;
     object-fit: cover;
@@ -677,9 +669,9 @@ html {
         min-height: auto;
         padding: 18px;
     }
-    .text-folder
-    {
-        max-width: 60%;
+
+    .text-folder p {
+        font-size: 1rem;
     }
 
     .icono-mail {
@@ -696,21 +688,10 @@ html {
         margin: 10px;
     }
 
-    .modal-title { 
+    .modal-title {
         font-size: 1.05rem;
         text-align: center;
     }
-
-    .navbar-collapse 
-    {
-        padding: 2em;
-        margin: 0px;
-    }
-    .img-marca
-    {
-        transform: scale(0.8);
-    }
-
 }
 
 @media (max-width: 480px) {
@@ -740,41 +721,59 @@ html {
     .modal-content {
         padding: 10px;
     }
-    .img-marca
-    {
-        transform: scale(0.6);
-    }
 }
 
+/* ====================================================== */
+/* ALINEACIÓN PERFECTA DE TARJETAS (TEXTO + BOTÓN)        */
+/* ====================================================== */
 
+.card-noticia,
+.card-noticia2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;        /* todas las tarjetas misma altura */
+}
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;        /* ocupa todo el espacio disponible */
+    justify-content: space-between; /* separa texto y botón */
+}
 
+.card-title {
+    margin-bottom: 10px;
+}
 
+.card-text {
+    flex-grow: 1;        /* obliga a que el texto empuje hacia abajo */
+    margin-bottom: 20px;
+}
 
+.btn-vermas {
+    margin-top: auto;     /* botón pegado abajo SIEMPRE */
+}
 
+/* ==== ARREGLO DE ALINEACIÓN DE TARJETAS EN MÓVILES ==== */
+@media (max-width: 575px) {
 
+    /* Quita el padding exagerado que empuja las tarjetas */
+    .container {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
 
+    /* Centra las tarjetas correctamente */
+    .card-noticia,
+    .card-noticia2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* Asegura que el título y texto no queden desfasados */
+    .card-noticia .card-body,
+    .card-noticia2 .card-body {
+        text-align: center;
+    }
+}
 
