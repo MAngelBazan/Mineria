@@ -565,7 +565,7 @@ html {
 }
 
 .card-noticia2 {
-    background-color: #ABC1CC;
+    background-color: #9BD3ED;
 }
 
 .card-noticia:hover,
@@ -618,9 +618,9 @@ html {
     align-self: center;
 
 }
-.b-lightblue
+.b-lightblue /*ahora es blanco*/
 {
-    background-color: #9BD3ED;
+    background-color: #FFFBF2;
 }
 .b-yellow
 {
@@ -631,6 +631,8 @@ html {
 .b-lightblue:hover
 {
     background-color: #85c6e0;
+    background-color: rgba(255, 251, 242, 0.5);
+    
 }
 .b-yellow:hover
 {
@@ -807,6 +809,7 @@ html {
         text-align: center;
     }
 }
+
 
 
 
