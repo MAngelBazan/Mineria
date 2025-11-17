@@ -256,7 +256,12 @@ una al lado de la otra  (creo que lo cambié, pero no me acuerdo)*/
     max-width: 30%;
 }
 
-
+.white-folder img:hover
+{
+    transform: scale(1.1);
+    color:#F4B92A;
+}
+ 
 .yellow-mark
 {
     background-color: #F4B92A;
@@ -400,7 +405,7 @@ footer {
 
 /* #################################################################### */
 
-/* Quita márgenes por defecto */
+
 body,
 html {
     margin: 0;
