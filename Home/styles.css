@@ -459,9 +459,10 @@ html {
 .portada {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
     overflow: hidden;
     margin-top: 80px;
+    margin-bottom:10px;
 }
 
 /* Video de fondo */
@@ -825,6 +826,7 @@ html {
         text-align: center;
     }
 }
+
 
 
 
