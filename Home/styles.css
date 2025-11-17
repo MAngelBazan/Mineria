@@ -462,7 +462,7 @@ html {
     height: 85vh;
     overflow: hidden;
     margin-top: 80px;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 
 /* Video de fondo */
@@ -744,6 +744,10 @@ html {
     {
         font-size: 0.7rem;
     }
+    
+    .portada {
+        height: 35vh;
+    }
 }
 
 @media (max-width: 480px) {
@@ -826,6 +830,7 @@ html {
         text-align: center;
     }
 }
+
 
 
 
