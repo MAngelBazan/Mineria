@@ -693,14 +693,6 @@ html {
         height: 500px;
     }
 
-    .tarjeta-amplia p
-    {
-        font-size: 1rem;
-    }
-    .card-item p, .card-item li
-    {
-        font-size: 0.7rem;
-    }
 }
 
 @media (max-width: 768px) {
@@ -743,6 +735,14 @@ html {
         transform: scale(0.8);
     }
 
+       .tarjeta-amplia p
+    {
+        font-size: 1rem;
+    }
+    .card-item p, .card-item li
+    {
+        font-size: 0.7rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -825,6 +825,7 @@ html {
         text-align: center;
     }
 }
+
 
 
 
