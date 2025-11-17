@@ -506,7 +506,7 @@ html {
 }
 .video-fondo
 {
-    height: 600px;
+    margin-bottom:100px;
 }
 
 
@@ -825,6 +825,7 @@ html {
         text-align: center;
     }
 }
+
 
 
 
