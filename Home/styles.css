@@ -748,6 +748,11 @@ html {
     .portada {
         height: 35vh;
     }
+
+    .footer-home
+    {
+        transform: scale(0.8);
+    }
 }
 
 @media (max-width: 480px) {
@@ -780,6 +785,11 @@ html {
     .img-marca
     {
         transform: scale(0.6);
+    }
+
+     .footer-home
+    {
+        transform: scale(0.5);
     }
 }
 
@@ -830,6 +840,7 @@ html {
         text-align: center;
     }
 }
+
 
 
 
