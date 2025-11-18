@@ -751,7 +751,7 @@ html {
 
     .footer-home
     {
-        transform: scale(0.8);
+        transform: scale(0.8) !important;
     }
 }
 
@@ -789,7 +789,7 @@ html {
 
      .footer-home
     {
-        transform: scale(0.5);
+        transform: scale(0.5) !important;
     }
 }
 
@@ -840,6 +840,7 @@ html {
         text-align: center;
     }
 }
+
 
 
 
